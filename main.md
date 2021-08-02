@@ -28,19 +28,19 @@ GitHub is a git hosting service. Using the Git command line interface, and a Git
 
 1. Next, click back over to the web browser window where you have the code repository open and click the green button that says **Code**, select the tab here that says **HTTPS**, and then copy the URL to your system clipboard, by clicking the clipboard icon next to the URL.
 
-    ![copy URL](3.png)
+    ![copy URL](img/3.png)
 
 1. Back in your Git Bash window, you need to paste the URL to the end of the command. To do this, you can right-click in the Bash window and select **Paste** or, you can use the keyboard shortcut which you'll see is **Shift-Insert**.
 
-    ![paste into bash](4.png)
+    ![paste into bash](img/4.png)
 
 1. Finally, press **Enter** on your keyboard to initiate the clone. You'll see some text scroll in the Bash window, and once that's finished the folder with the name of the repository appear in your file browser.
 
-    ![Result of process](5.png)
+    ![Result of process](img/5.png)
 
     And if you navigate into that folder, you will notice that it has all of the files that were originally in the repository here. If you have hidden files enabled, you will see a folder in here called `.git`. This folder contains all of the files and metadata associated with the git repository. Ignore these. If you mess with them, you *will* corrupt the repository.
 
-    ![Inside the folder](6.png)
+    ![Inside the folder](img/6.png)
 
 ## What just happened?
 
